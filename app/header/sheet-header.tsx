@@ -13,7 +13,7 @@ const SheetHeaderComponent = () => {
     <>
       <div className="sm:hidden">
         <Sheet>
-          <SheetTrigger className="border p-2  rounded-lg border-primary hover:bg-primary text-primary hover:text-zinc-50"><MenuIcon className="size-6" /></SheetTrigger>
+          <SheetTrigger className="border p-2  rounded-lg border-primary hover:bg-primary text-primary hover:text-zinc-50"><MenuIcon className="size-6 " /></SheetTrigger>
           <SheetContent>
             <SheetHeader>
               <SheetTitle>Menu</SheetTitle>
