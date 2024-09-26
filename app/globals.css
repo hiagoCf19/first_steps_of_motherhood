@@ -4,7 +4,8 @@
 
 @layer base {
   :root {
-    --background: 350 100% 97%;
+    --background: 0 100% 97%;
+    --backgroundSecondary: 348 59% 88%;
     --foreground: 240 10% 10%;
     --card: 0 0% 100%;
     --card-foreground: 240 10% 10%;
@@ -20,8 +21,8 @@
     --accent-foreground: 240 5.9% 10%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
-    --border: 240 5.9% 85%; /* Suavizei a borda */
-    --input: 240 5.9% 85%; /* Para maior consistência */
+    --border: 240 5.9% 85%;
+    --input: 240 5.9% 85%;
     --ring: 346.8 77.2% 49.8%;
     --radius: 0.5rem;
     --chart-1: 12 76% 61%;
@@ -35,6 +36,7 @@
   }
   .dark {
     --background: 20 14.3% 4.1%;
+    --backgroundSecondary: 351 100% 97%;
     --foreground: 0 0% 90%; /* Mantive mais claro para melhor legibilidade */
     --card: 24 9.8% 10%;
     --card-foreground: 0 0% 90%; /* Melhor legibilidade */
