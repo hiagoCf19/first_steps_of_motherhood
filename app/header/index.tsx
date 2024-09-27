@@ -22,7 +22,7 @@ const Header = () => {
     }
   ]
   return (
-    <header className="flex justify-between items-center  border-primary p-2  md:p-4 md:px-[10%] bg-backgroundSecondary">
+    <header className="flex justify-between items-center  border-primary p-2 px-4  md:p-4 md:px-[10%] bg-backgroundSecondary fixed w-full z-50">
       <h1 className="text-xl font-bold">PROJECT NAME</h1>
       <nav className="hidden sm:block " >
         <div className="flex space-x-4 ">
