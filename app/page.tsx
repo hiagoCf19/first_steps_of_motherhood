@@ -1,5 +1,6 @@
 import Header from "./header";
 import Preview from "./preview";
+import Videos from "./videos";
 import Welcome from "./welcome";
 
 
@@ -10,7 +11,8 @@ export default function Home() {
       <main className="sm:space-y-12 space-y-4">
         <Welcome />
         <Preview />
-        <footer className=" mt-4 border-primary  border-t  w-full p-4">
+        <Videos />
+        <footer className="w-full p-4 bg-backgroundSecondary">
           footer
         </footer>
       </main>
